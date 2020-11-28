@@ -1,0 +1,21 @@
+div{
+    width:40%;
+    height:200px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    border:solid red 2px;
+    float: left;
+    justify-content: space-between;
+}
+.container
+{
+    width:100%;
+    height:100%;
+    border:solid green 2px;
+}
+.item
+{
+    flex-grow:8;
+    border:solid blue 2px;
+}
