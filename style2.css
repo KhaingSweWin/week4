@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    width:100%;
+    height:100px;
+    background-color:blue;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:2;
+}
+.banner{
+    width:100%;
+    height:500px;
+    margin-top:100px;
+    background:url("mdy.jpg") no-repeat;
+
+}
+.banner_content{
+    color:white;
+    font-weight:bold;
+    position: absolute;
+    top:200px;
+    left:300px;
+    width:400px;
+    height:200px;
+    background:black;
+    text-align: center;
+    padding-top:100px;
+    opacity:0.5;
+    z-index:1;
+}
+.banner_content1{
+    color:white;
+    font-weight:bold;
+    position: absolute;
+    bottom:300px;
+    left:750px;
+    width:400px;
+    z-index:1;
+}
+.container
+{
+    width:100%;
+    height:1000px;
+    border:solid blue 2px;
+    position:absolute;
+    top:100px;
+    left:0px;
+
+}
